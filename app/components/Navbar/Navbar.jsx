@@ -53,6 +53,14 @@ export default function Navbar() {
             Blog
           </Link>
         </li>
+        <li className="mx-3">
+          <Link
+            href="/contacternous"
+            className={`${pathname === '/contactez-nous' ? 'font-bold text-white' : 'text-gray-400'} hover:text-gray-200 text-2xl px-4`}
+          >
+            Contactez-Nous
+          </Link>
+        </li>
       </ul>
     </nav>
   );
